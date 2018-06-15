@@ -153,9 +153,9 @@ var sendEmail = function(address, data, sender, filename, callback) {
 		}catch(er){console.log(er)}
 
 		
-		// console.log(mailOptions)
-		if(address === 'surgbc@gmail.com')
-		{
+		// // console.log(mailOptions)
+		// if(address === 'surgbc@gmail.com')
+		// {
 
 			console.log(`SENDING TO ${address}`)
 			// 
@@ -175,7 +175,7 @@ var sendEmail = function(address, data, sender, filename, callback) {
 		        // Message sent: <b658f8ca-6296-ccf4-8306-87d57a0b4321@example.com>
 		        // Preview URL: https://ethereal.email/message/WaQKMgKddxQDoou...
 		    });
-		}else callback();
+		// }else callback();
 		
 
 		
